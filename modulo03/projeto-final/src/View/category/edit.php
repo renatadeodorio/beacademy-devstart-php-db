@@ -8,6 +8,5 @@
     <textarea id="description" name="description" class="form-control mb-3"><?php  echo $data['description']; ?></textarea>
 
     <button class="btn btn-primary mb-3">Atualizar</button>
-
     
 </form>

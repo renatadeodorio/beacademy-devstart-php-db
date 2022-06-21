@@ -26,8 +26,6 @@ $routes = [
     '/categorias/editar' => createRoute(CategoryController::class, 'updateAction'),
     
 
-
-
 ];
 
 return $routes;

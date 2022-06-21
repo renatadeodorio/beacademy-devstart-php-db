@@ -7,7 +7,6 @@ namespace App\Controller;
 use App\Connection\Connection;
 use Dompdf\Dompdf;
 
-
 class ProductController extends AbstractController
 {
     public function listAction(): void
@@ -149,8 +148,7 @@ class ProductController extends AbstractController
                     {$content}
                 </tbody>
             </table>
-            
-            
+                
         ";
 
         $pdf = new Dompdf();

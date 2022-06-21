@@ -1,9 +1,9 @@
-<h1>Editar Pordutos</h1><h1>Editar Produto</h1>
+<h1>Editar Produto</h1>
 
 
 <form action="" method="post">
     <?php 
-        extract($data);
+     extract($data);
     
     ?>
 
@@ -24,6 +24,5 @@
   
 
     <button class="btn btn-primary mb-3">Atualizar</button>
-
     
 </form>

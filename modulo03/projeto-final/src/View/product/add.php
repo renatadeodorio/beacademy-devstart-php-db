@@ -13,7 +13,6 @@
         ?>
     </select>  
 
-
     <label for="name">Nome</label>
     <input id="name" name="name" type="text" class="form-control mb-3">
 
@@ -28,9 +27,7 @@
 
     <label for="photo">Foto</label>
     <input id="photo" name="photo" type="text" class="form-control mb-3">
-  
 
     <button class="btn btn-primary mb-3">Enviar</button>
-
     
 </form>
