@@ -12,7 +12,7 @@ abstract class Connection
     {
       $database = "db_store";
       $username ="root";
-      $password ="123456";
+      $password ="";
 
         return new \PDO('mysql:host=localhost;dbname=' . $database, $username, $password);
 

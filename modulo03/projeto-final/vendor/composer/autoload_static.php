@@ -4,12 +4,11 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitfdcb2aee598868d2c97379c31d2ceeea
+class ComposerStaticInit31fd80b2bd3010f096b7c06b25af32b1
 {
     public static $prefixLengthsPsr4 = array (
         'S' => 
         array (
-            'Svg\\' => 4,
             'Sabberworm\\CSS\\' => 15,
         ),
         'F' => 
@@ -20,17 +19,13 @@ class ComposerStaticInitfdcb2aee598868d2c97379c31d2ceeea
         array (
             'Dompdf\\' => 7,
         ),
-        'C' => 
+        'A' => 
         array (
-            'Classes\\' => 8,
+            'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Svg\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/phenx/php-svg-lib/src/Svg',
-        ),
         'Sabberworm\\CSS\\' => 
         array (
             0 => __DIR__ . '/..' . '/sabberworm/php-css-parser/src',
@@ -43,7 +38,7 @@ class ComposerStaticInitfdcb2aee598868d2c97379c31d2ceeea
         array (
             0 => __DIR__ . '/..' . '/dompdf/dompdf/src',
         ),
-        'Classes\\' => 
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
@@ -62,9 +57,9 @@ class ComposerStaticInitfdcb2aee598868d2c97379c31d2ceeea
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitfdcb2aee598868d2c97379c31d2ceeea::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitfdcb2aee598868d2c97379c31d2ceeea::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitfdcb2aee598868d2c97379c31d2ceeea::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit31fd80b2bd3010f096b7c06b25af32b1::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit31fd80b2bd3010f096b7c06b25af32b1::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit31fd80b2bd3010f096b7c06b25af32b1::$classMap;
 
         }, null, ClassLoader::class);
     }

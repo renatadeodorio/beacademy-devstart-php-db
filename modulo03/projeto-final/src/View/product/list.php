@@ -30,7 +30,7 @@
                     <td> <img width='100px' src='{$photo}'> </td>
                     <td>R$ {$value}</td>
                     <td>{$quantity}</td>
-                    <td>{$created_at}</td>
+                    <td>{$create_at}</td>
                     <td>
                         <a href='/produtos/excluir?id={$id}' class=' btn btn-outline-danger btn-sm'>Excluir</a>
                         <a href='/produtos/editar?id={$id}' class=' btn btn-outline-warning btn-sm'>Editar</a>
